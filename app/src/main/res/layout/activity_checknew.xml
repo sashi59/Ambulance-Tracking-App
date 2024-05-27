@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CheckboxFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select the Case of Emergency"
+        android:fontFamily="@font/inter_bold"
+        android:textSize="25sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:text="Heart Attack/Chest Pain"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:layout_marginLeft="15dp"
+        android:text="Severe Headache"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:layout_marginLeft="15dp"
+        android:text="Kidney Issue"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:layout_marginLeft="15dp"
+        android:text="Sudden Breathing Problem/Lung Issue"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:layout_marginLeft="15dp"
+        android:text="Eye Trauma"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:layout_marginLeft="15dp"
+        android:text="Stroke"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:layout_marginLeft="15dp"
+        android:text="Mental Case"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:layout_marginLeft="15dp"
+        android:text="Drug Case"
+        android:textSize="16sp" />
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:layout_marginLeft="15dp"
+        android:text="Spinal Injury"
+        android:textSize="16sp" />
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:layout_marginLeft="15dp"
+        android:text="Accident/Riot/Unconsiosness Case"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:layout_marginLeft="15dp"
+        android:text="Uncontrollable Bleeding"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:layout_marginLeft="15dp"
+        android:text="Seroius Wound/Infection"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:layout_marginLeft="15dp"
+        android:text="Other"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="3dp"
+        android:backgroundTint="#E13232"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Submit" />
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:background="@color/mycolor"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        tools:context=".UsericonActivity">
+
+        <ImageView
+            android:id="@+id/ppuser"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/profile_bg" />
+
+        <TextView
+            android:id="@+id/userbio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shahsishekhar"
+            android:layout_marginLeft="21dp"
+            android:layout_marginBottom="13dp"
+            android:textSize="18sp"
+
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</layout>

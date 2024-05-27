@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "720746322248",
+    "project_id": "myyy-tracking-app",
+    "storage_bucket": "myyy-tracking-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720746322248:android:199fc22fe46d8896dffb7d",
+        "android_client_info": {
+          "package_name": "com.example.myyy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPMOOja9_bpePbR6bJoPkoswE-hWwp7dA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
